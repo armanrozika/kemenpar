@@ -44,7 +44,7 @@
 }
 
 .topbar-wrapper .topbar .topbar-logo img {
-  width: 150px;
+  width: 120px;
   height: auto;
 }
 
@@ -217,6 +217,7 @@
           box-shadow: 1px 1px 6px #3e3e3e;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
+  z-index: 9;
 }
 
 .menu-wrapper .navbar .nav-items .nav-submenu a {
@@ -238,3 +239,394 @@
   top: 35px;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+.top-banner{
+  width: 970px;
+  height: 90px;
+  margin: 20px auto;
+}
+
+.top-banner-placeholder{
+  width: 100%;
+  height: 100%;
+  background: grey;
+}
+.main-section{
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-section-left{
+  width: 770px;
+}
+
+.showcase{
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.showcase img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.showcase-title{
+  position: absolute;
+  top: 0;
+  width: 80%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(117, 79, 156, 1)), to(rgba(181, 61, 136, 0.7)));
+  background-image: linear-gradient(to right, rgba(117, 79, 156, 1), rgba(181, 61, 136, 0.7), rgba(255,0,0,0));
+}
+
+.showcase-title p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 33px;
+  font-weight: 300;
+  color: #fff;
+  width: 40%;
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  left: 20px;
+}
+
+.showcase-title p:before{
+  content: "";
+  width: 30px;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  top: -15px;
+}
+
+.section-title{
+  display: flex;
+  align-items: center;
+  margin: 35px 0;
+}
+
+.section-title img{
+  width: 25px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.section-title p{
+  font-weight: bold;
+  font-size: 18px;
+  color: #313131;
+}
+
+.section-content{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+}
+
+.section-items{
+  margin-bottom: 10px;
+}
+
+
+
+.section-items img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.artikel-title{
+  color: #525252;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.tags{
+  max-width: 61%;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  padding: 5px 10px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#754f9c), to(#b53d88));
+  background-image: linear-gradient(to right, #754f9c, #b53d88);
+  margin: 15px 0;
+}
+
+.tags-circle{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px #fff solid;
+  margin-right: 10px;
+  background: none;
+  position: relative;
+}
+
+.tags-circle p{
+  position: absolute;
+  top: 39%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+.tags p{
+  color: #fff;
+  font-size: 15px;
+}
+
+.share{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.share p{
+  font-size: 12px;
+  font-weight: 300;
+  color: #525252;
+  margin-right: 10px;
+}
+
+.socmed{
+  display: flex;
+  align-items: center;
+}
+
+.socmed i{
+  font-size: 12px;
+  color: #525252;
+  margin-right: 5px;
+}
+
+
+.section-items-all{
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#754f9c), to(#b53d88));
+  background-image: linear-gradient(to right, #754f9c, #b53d88);
+}
+
+.section-items-all > a{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+
+.section-items-all p{
+  color: #fff;
+}
+
+.section-items-all > a > .tags-circle{
+  margin-left: 10px;
+}
+
+
+.map-section{
+  width: 100%;
+  height: 320px;
+  position: relative;
+}
+
+.map-section img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(1px);
+}
+
+.map-container{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 25px;
+}
+
+.map-container p{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+/*MAPS*/
+ .l-hov:hover .l-hov > path{
+    
+ }
+
+ .l-hov path{
+  
+ }
+
+ /**/
+
+ .img-agenda{
+  margin-bottom: 15px;
+ }
+
+
+.btn-selengkapnya{
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+.btn-selengkapnya a{
+  margin: 0 auto;
+  background-image: -webkit-gradient(linear, left top, right top, from(#754f9c), to(#b53d88));
+  background-image: linear-gradient(to right, #754f9c, #b53d88);
+  width: 200px;
+  color: #fff;
+  text-align: center;
+  height: 35px;
+  border-radius: 25px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*main section right____________________________________________*/
+
+.main-section-right{
+  width: 300px;
+}
+
+.giant-banner{
+  width: 300px;
+  height: 600px
+}
+.follow-socmed{
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+}
+
+.follow-socmed i{
+  color: #754f9c;
+  margin-right: 20px;
+  font-size: 2em;
+}
+
+.follow-socmed p{
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.giant-placeholder{
+  width: 100%;
+  height: 100%;
+  background: grey;
+}
+
+.populer-items{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.populer-items img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.populer-title p{
+  font-weight: 300;
+  color: #525252;
+  margin-bottom: 10px;
+}
+
+.populer-title span{
+  font-weight: 300;
+  color: #525252;
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  width: 100%;
+  background-image: linear-gradient(to top, #754f9c, #b53d88);
+  padding-bottom: 50px;
+}
+
+
+.kanal{
+  width: 1100px;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 20px;
+}
+
+.kanal-items{
+  
+}
+
+.kanal-items a{
+  margin-bottom: 10px;
+  font-weight: 300;
+  display: block;
+  color: #fff;
+}
+
+.kompas-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.kompas-info img{
+  width: 200px;
+  height: auto;
+}
+
+.about{
+  display: flex;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.about a, .kompas-info p{
+  font-weight: 300;
+  color: #fff;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.kompas-info p{
+  float: right;
+}
+
+
+
+
+
+/*main section right, width 300px*/
