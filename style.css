@@ -271,7 +271,7 @@
 }
 
 .main-section-left{
-  width: 770px;
+  width: 780px;
 }
 
 .showcase{
@@ -558,22 +558,25 @@
   margin-right: 15px;
 }
 
+.populer-title a{
+  font-size: 16px;
+  font-weight: 300;
+  color: #525252;
+  margin-bottom: 15px;
+}
+
 .populer-title p{
   font-weight: 300;
   color: #525252;
-  margin-bottom: 10px;
-}
-
-.populer-title span{
-  font-weight: 300;
-  color: #525252;
   font-size: 12px;
+  margin-top: 10px;
 }
 
 .footer{
   width: 100%;
   background-image: linear-gradient(to top, #754f9c, #b53d88);
   padding-bottom: 50px;
+  margin-top: 20px;
 }
 
 .footer a:hover{
@@ -719,6 +722,398 @@ i{
   font-size: 18px;
   pointer-events: none;
   text-align: center;
+}
+
+.map-indonesia{
+  margin-top: 18px;
+}
+
+.map-indonesia svg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.map-indonesia button{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#754f9c), to(#b53d88));
+  background-image: linear-gradient(to right, #754f9c, #b53d88);
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.daerah-info{
+  padding: 20px 60px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#754f9c), to(#b53d88));
+  background-image: linear-gradient(to right, #754f9c, #b53d88);
+}
+
+.daerah-info p{
+  text-align: center;
+  font-weight: 300;
+  color: #fff;
+  line-height: 1.9;
+}
+
+.daerah-content{
+  display: flex;
+  margin-top: 30px;
+}
+
+.daerah-items h2{
+  color: #383838;
+  font-size: 18px;
+}
+
+.daerah-items a{
+  color: #383838;
+}
+
+.daerah-content img{
+  width: 300px;
+  height: 170px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.socmed-show{
+  opacity: 1;
+}
+
+.artikel-daerah{
+  color: #525252;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 10px;
+  line-height: 1.8;
+}
+
+.lihat-semua{
+  width: 100px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.btn-daerah{
+  margin-top: 50px;
+}
+
+.agenda-search{
+  width: 100%;
+  background: #dcdcdc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.searchbox-agenda{
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  background: #fff;
+ /* width: 200px;*/
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+
+.searchbox-agenda input{
+  border: none;
+}
+
+.searchbox-agenda img{
+  width: 20px;
+  height: auto;
+}
+
+.width-120{
+  width: 120px;
+}
+
+.no-padding{
+  padding: 0;
+  padding-right: 10px;
+}
+
+.no-padding input{
+  padding-left: 10px;
+}
+
+.agenda-img-wrap{
+  padding: 6px 15px;
+  border-right: 1px solid #dadada;
+}
+
+.no-padding img{
+  
+}
+
+.search-map{
+  width: 15px !important;
+}
+input:focus{
+  outline: none;
+}
+
+
+.search-agenda-btn{
+  background-image: linear-gradient(to right, #14f396, #3caee4);
+  padding: 8px 38px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.agenda-selengkapnya a{
+    background-image: linear-gradient(to right, #14f396, #3caee4);
+}
+
+.showpejalan{
+  height: 320px;
+  margin-bottom: 25px;
+}
+
+.title-pejalan{
+  background-image: linear-gradient(to right, rgb(48, 196, 253), rgba(102, 61, 181, 0.7), rgba(255,0,0,0));
+}
+
+.title-pejalan p{
+  font-size: 28px;
+}
+
+.title-pejalan p:before{
+  display: none;
+}
+
+.pejalan-selengkapnya a{
+   background-image: linear-gradient(to right, rgb(48, 196, 253), rgb(102, 61, 181));
+}
+
+.breadcrumb{
+  margin-bottom: 20px;
+}
+.breadcrumb a{
+  color: #404040;
+}
+
+.breadcrumb .active{
+  color:#b23e89;
+}
+
+.main-title{
+  color: #383838;
+  font-weight: 400;
+}
+
+.main-artikel-date{
+  font-size: 14px;
+  color: #828282;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-artikel-share i{
+  font-size: 20px;
+  color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 5px;
+  margin-left: 10px;
+}
+
+.main-artikel-share .fa-facebook-f{
+  background: blue;
+}
+
+.main-artikel-share .fa-twitter{
+  background: lightblue;
+}
+
+.main-artikel-share .fa-google-plus-g{
+  background: red;
+}
+
+.main-artikel-share .fa-whatsapp{
+  background: green;
+}
+
+.main-artikel-img{
+  width: 100%;
+  height: 390px;
+  object-fit: cover;
+}
+
+.main-artikel-paragraf{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.main-artikel-paragraf p{
+  color: #464646;
+  line-height: 1.8;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.keajaiban-lainnya{
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.keajaiban-lainnya img{
+  width: 300px;
+  height: 170px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.artikel-selengkapnya{
+  margin-top: 60px;
+}
+
+.title-inspirasi{
+  background-image: linear-gradient(to right, rgb(255, 187, 34), rgba(251, 88, 88, 0.7), rgba(255,0,0,0));
+}
+
+.inspirasi-selengkapnya a{
+  background-image: linear-gradient(to right, rgb(255, 187, 34), rgb(251, 88, 88));
+}
+
+.keajaiban-container{
+  margin-top: 5px;
+}
+
+.keajaiban-items-top{
+  width: 100%;
+  height: 350px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.keajaiban-items-top img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.keajaiban-title{
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+.keajaiban-title h3{
+  color: #fff;
+}
+
+.keajaiban-items-bottom{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.keajaiban-bottom-left{
+  height: 350px;
+  position: relative;
+}
+
+.keajaiban-bottom-left img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.keajaiban-bottom-right{
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  grid-gap: 5px;
+  margin-left: 5px;
+}
+
+.bottom-right-one{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  
+}
+
+.bottom-right-two{
+}
+
+.right-one{
+  position: relative;
+}
+
+.right-one img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title-small{
+ left: 10px;
+ bottom: 10px;
+}
+.mx-77{
+  max-width: 70%;
+}
+
+.keajaiban-title p{
+  color: #fff;
+}
+
+.smaller-right{
+  height: 35%;
+  padding-bottom: 5px;
+}
+
+.bigger-right{
+  height: 45%;
+}
+
+.keajaiban-pt{
+  
+  margin-top: 5px;
+}
+
+.keajaiban-pt div{
+  background-image: linear-gradient(to right, #ec723f, #dd4669);
+  color: #fff;
+  font-weight: 300;
+  height: 20%;
+  padding: 10px;
+}
+
+.keajaiban-pt .keajaiban-alam-lain{
+  background-image: linear-gradient(to right, #3376c6, #58937a);
+}
+
+.keajaiban-pt .keajaiban-budaya-lain{
+  background-image: linear-gradient(to right, #f6ac1f, #f68d35)
+}
+
+.keajaiban-pt .keajaiban-kuliner-lain{
+  background-image: linear-gradient(to right, #bc3b84, #7a4d9b);
+}
+
+.keajaiban-pt .keajaiban-rekreasi-lain{
+  background-image: linear-gradient(to right, #565ba5, #1b75c1)
 }
 
 
